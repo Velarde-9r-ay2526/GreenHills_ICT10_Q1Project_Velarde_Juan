@@ -1,0 +1,110 @@
+/* Page Setup */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Top Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f172a;
+    padding: 15px 30px;
+    color: white;
+}
+
+.navbar a {
+    color: #94a3b8;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.navbar a.active {
+    color: white;
+    font-weight: bold;
+}
+
+/* Main Card Layout */
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.card {
+    background: white;
+    width: 380px;
+    height: fit-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Black Faded Header */
+.card-header {
+    background: linear-gradient(black, white);
+    text-align: center;
+    padding: 20px;
+}
+
+.card-header h2 {
+    margin: 0;
+    color: white;
+}
+
+.card-header p {
+    margin: 5px 0 0 0;
+    color: black;
+}
+
+/* Form Inputs */
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button & Output */
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.output-box {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* Footer Bar */
+.footer {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 12px;
+    font-size: 13px;
+}
+
+i watched many tutorial for the fades
